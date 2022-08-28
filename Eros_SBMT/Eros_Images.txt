@@ -1,0 +1,2 @@
+#Image_Name Image_Time_UTC Pointing
+M0147951738F3_2P_CIF_DBL.FIT 2000-10-26T06:25:05.475 SPC_Derived

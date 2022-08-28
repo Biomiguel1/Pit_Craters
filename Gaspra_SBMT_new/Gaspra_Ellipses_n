@@ -1,0 +1,34 @@
+# SBMT Structure File
+# type,ellipse
+# ------------------------------------------------------------------------------
+# File consists of a list of structures on each line.
+#
+# Each line is defined by 18 columns with the following:
+# <id> <name> <centerXYZ[3]> <centerLLR[3]> <coloringValue[4]> <diameter> <flattening> <regularAngle> <colorRGB> <gravityAngle> <label>*
+#
+#               id: Id of the structure
+#             name: Name of the structure
+#     centerXYZ[3]: 3 columns that define the structure center in 3D space
+#     centerLLR[3]: 3 columns that define the structure center in lat,lon,radius
+# coloringValue[4]: 4 columns that define the ellipse “standard” colorings. The
+#                   colorings are: slope (deg), elevation (m), acceleration (m/s^2), potential (J/kg)
+#         diameter: Diameter of major axis of ellipse
+#       flattening: Flattening factor of ellipse. Range: [0.0, 1.0]
+#     regularAngle: Angle between the major axis and the line of longitude
+#                   as projected onto the surface
+#         colorRGB: 1 column (of RGB values [0, 255] separated by commas with no
+#                   spaces). This column appears as a single textual column.
+#     gravityAngle: Angle between the major axis of the ellipse and the gravity
+#                   acceleration vector... (Description continues in user manual)
+#            label: Label of the structure
+#
+#
+# Please note the following:
+# - Each line is composed of columns separated by a tab character.
+# - Blank lines or lines that start with '#' are ignored.
+# - Angle units: degrees
+# - Length units: kilometers
+
+1	default	2.957110508202622	-3.2479054121828517	2.315681318506263	27.798148927104464	312.3168257229071	4.9654578935973195	NA	NA	NA	NA	0.15817911923320274	0.8722752057061186	179.4287543817607	255,0,255	NA	""
+2	default	2.819442005633012	-3.316754646010855	2.3195091811257713	28.05011231421189	310.3665478593736	4.9325690513452765	NA	NA	NA	NA	0.2902445251249239	0.5224319482837012	16.693963932245058	255,0,255	NA	""
+3	default	4.218914671078291	-2.6581773883144706	2.7167065779534365	28.582108756174456	327.78653348471653	5.678524690470357	NA	NA	NA	NA	0.2396074444726083	0.48523328956908834	134.50716165935643	255,0,255	NA	""
